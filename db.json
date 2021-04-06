@@ -1,0 +1,30 @@
+{
+  "students": [
+    {
+      "name": "Oleg",
+      "lastName": "Prushkin",
+      "image": "https://html5css.ru/w3images/avatar2.png",
+      "phone": "0555555555",
+      "weeklyKpi": "73%",
+      "monthlyKpi": "67%",
+      "id": 4
+    },
+    {
+      "name": "Maksat",
+      "lastName": "Akaev",
+      "image": "https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg",
+      "phone": "0778565656",
+      "weeklyKpi": "67",
+      "monthlyKpi": "90",
+      "id": 5
+    },
+    {
+      "name": "Aika",
+      "lastName": "Maratova",
+      "image": "https://png.pngtree.com/element_our/png/20181206/female-avatar-vector-icon-png_262142.jpg",
+      "phone": "98764646633",
+      "weeklyKpi": "87",
+      "monthlyKpi": "99"
+    }
+  ]
+}

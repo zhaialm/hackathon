@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="head">KPI</div>
+    <button class="add-btn">Добавить</button>
+    <div class="blocks">
+            <input placeholder="name" type="text" class="name">
+            <input placeholder="lastname" type="text" class="lastname">
+            <input placeholder="image" type="text" class="image">
+            <input placeholder="phone" type="number" class="phone">
+            <input placeholder="weekly-kpi" type="text" class="weekly-kpi">
+            <input placeholder="monthly-kpi" type="text" class="monthly-kpi">
+    </div>
+
+    <div class="container">
+        <div class="student-block"></div>
+       </div>
+       <!-- mt-5 student-block d-flex justify-content-between flex-wrap -->
+    <div class="main-modal">
+     <div class="inner-modal">
+      <div class="close">
+       <button class="btn-close">X</button>
+      </div>
+
+      <ul style="list-style: none; position: absolute; top: 10%; left: 40%; " class="edit-list">
+       <li><input placeholder="name" type="text" class="edit-name"></li>
+       <li><input placeholder="lastname" type="text" class="edit-lastname"></li>
+       <li><input placeholder="image" type="text" class="edit-image"></li>
+       <li><input placeholder="phone" type="number" class="edit-phone"></li>
+       <li><input placeholder="weekly-kpi" type="text" class="edit-weekly-kpi"></li>
+       <li><input placeholder="monthly-kpi" type="text" class="edit-monthly-kpi"></li>
+      </ul>
+      <button style="position: absolute; top:80%; left:50%;" class="btn-save">Save</button>
+     </div>
+    </div>
+</section>
+   
+   
+      
+    
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
