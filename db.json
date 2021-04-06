@@ -25,6 +25,15 @@
       "phone": "98764646633",
       "weeklyKpi": "87",
       "monthlyKpi": "99"
+    },
+    {
+      "name": "Oksana",
+      "lastName": "Kovalchuk",
+      "image": "https://www.pngfind.com/pngs/m/114-1146521_girl-avatar-png-picture-female-avatar-no-face.png",
+      "phone": "0554569977",
+      "weeklyKpi": "74%",
+      "monthlyKpi": "81%",
+      "id": 6
     }
   ]
 }
